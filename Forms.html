@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>
+            The Bay - Registration Form
+        </title>
+        <style type="text/css">
+            img{
+                width: 300px
+            }
+            header{
+                background-color:darkseagreen;
+                text-align:center;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+        <img src="The Bay.png"/>
+        </header>
+        <h3> Create Your New Account:</h3>
+        <form>
+                First Name:
+                <input id="FirstName" name="FirstName">
+        </br></br>
+                Last Name:
+                <input id="LastName" name="LastName">
+        </br></br>
+            Street Address:
+            <input type="text" name="Address" id="Address">
+            <!-- input type= is so important to add. Less so for 1st and last name as it is defaulted but make it a habit-->
+        </br></br>
+            Postal Code:
+            <input type="text" name="Postal_Code" id="Postal Code">
+        </br></br>
+        Country
+        <Select name="Country" id="Country">
+            <option value="Canada" id="Canada">Canada</option>
+            <option value="U.S.A" id="U.S.A">U.S.A</option>
+            <option value="Mexico" id="Mexico">Mexico</option>
+            <option value="Cuba" id="Cuba">Cuba</option>
+            </Select>
+            City:
+            <Select name="city" id="City">
+                <option value="Tor"> Toronto</option>
+                <option value="Ham">Hamilton</option>
+                <option value="Ajax">Ajax</option>
+                <option value="Vau">Vaughan</option>
+            </Select>
+            Province
+            <Select name="Province" id="Province">
+                <option value="Ontario" id="Ontario">Ontario</option>
+                <option value="Quebec" id="Quebec">Quebec</option>
+                <option value="Nova Scotia" id="Nova Scotia">Nova Scotia</option>
+            </Select>
+
+    </br></br>
+            Female
+        <input type="radio" name="gender" value="Female">
+            Male
+        <input type="radio" name="gender" Value="Male">
+            Other
+        <input type="radio" name="gender" Value="Other">
+</br></br>
+            Email
+        <input id="email" name="email">
+</br></br>
+        Verify Email:
+        <input id="Vemail" name="Vemail">
+    </br></br>
+        Password:
+        <input type="password" id="Password" name="Password">
+        Confirm Password
+        <input type="password" id="password" name="password">
+        <!--getting someone to confirm the password you can input ^ twice-->
+</br></br>
+        Preferred Language:
+            <Select name ="languge" id="language">
+                <option value="English"> English </option>
+                <option value="French"> French</option>
+                <option value="Spanish"> Spanish</option>
+                <option value="Japanese"> Japanese</option>
+            </Select>
+            <!-- if you know most of your audience speaks 1 language add (selected) "language"-->
+        </br></br>
+        <input type="checkbox" name="agree" id="agree">
+        I agree to receive eletronic communication from The Bay containing inforamtion and exlusive offers with respect to products and services offered.
+        <h3> Be the first to know. Make sure you don't miss any of the deals The Bay has to offer!</h3>
+</br>
+    Tell us what you are looking for:
+</br></br>
+        <input type="checkbox" name="Beauty" id="beauty"> Beauty & Fragrance
+</br></br>
+        <input type="checkbox" name="Men_Access" id="Mens_access"> Mens Apparel & Accessories
+</br></br>
+        <input type="checkbox" name="Kids_Access" id="Kids_Access"> Kids Apparel & Accessories
+</br></br>
+        <input type="checkbox" name="Womens_Access" id="Womens_Access"> Womens Apparel & Accessories
+</br></br>
+        <input type="checkbox" name="Home_Fashion" id="Home_Fashion"> Home fashion
+</br></br>
+        <input type="checkbox" name="Bridal" id="Bridal"> Bridal
+</br>
+
+<h4>Would you like to recieve Weekly Communication from The Bay?</h4>
+<input type="radio" name="news" value="Y"> Yes
+</br>
+<input type="radio" name="news" value="N"> No
+
+</br></br>
+<input type="Submit" value="Register">
+
+
+        </form>
+    </body>
+</html>
